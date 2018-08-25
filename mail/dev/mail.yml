@@ -5,11 +5,6 @@ spring:
     bootstrap-servers: localhost:9092
     topic:
       userCreated: USER_CREATED_TOPIC
-    properties:
-      spring:
-        json:
-          trusted:
-            packages: 'com.user.dto'    
   h2:
     console:
       enabled: true
@@ -21,8 +16,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: mbdevtesting@gmail.com
-    password: mbdevtesting1994
+    username: 
+    password: 
     properties.mail.smtp:
       auth: true
       starttls.enable: true
